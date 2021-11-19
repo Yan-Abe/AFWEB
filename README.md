@@ -1,24 +1,3 @@
 # afweb
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Captura de tela 2021-11-19 200357](https://user-images.githubusercontent.com/72572211/142702197-bcde332a-4cbe-4e7c-8dfc-9753bde55bb6.png)
