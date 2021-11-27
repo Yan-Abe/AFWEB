@@ -1,11 +1,11 @@
 <template>
-  <v-row justify="center">
+  <v-row justify="start">
     <v-col
       cols="12"
       sm="9"
     >
       <v-card>
-        <v-card-title class="cyan darken-1">
+        <v-card-title class="primary">
           <span class="text-h5 white--text">Facens</span>
 
           <v-spacer></v-spacer>
@@ -88,7 +88,7 @@
         </v-list>
 
         <v-img
-          src="https://cdn.discordapp.com/attachments/911306299105505342/911382128112042054/logo-selo.jpg"
+          src="https://www.sejabixo.com.br/wp-content/uploads/2020/11/faces-vestibular-2021.jpg"
           height="420px"
         ></v-img>
       </v-card>

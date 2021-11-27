@@ -1,11 +1,10 @@
 <template>
   <div>
     <v-system-bar
-      window
-      dark
+      absolute
+      color="white"
     >
-      <v-icon>mdi-message</v-icon>
-      <span>AF</span>
+      
       <v-spacer></v-spacer>
       <v-icon>mdi-minus</v-icon>
       <v-icon>mdi-checkbox-blank-outline</v-icon>

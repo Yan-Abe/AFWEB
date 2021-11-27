@@ -1,47 +1,43 @@
 <template>
   <v-footer
-    dark
+  absolute
+    color="primary"
     padless
   >
-    <v-card
-      class="flex"
-      flat
-      tile
+    <v-row
+      justify="center"
+      no-gutters
     >
-      <v-card-title class="teal">
-        <strong class="subheading">Social networks-></strong>
-
-        <v-spacer></v-spacer>
-
-        <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          dark
-          icon
-        >
-          <v-icon size="24px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
-      </v-card-title>
-
-      <v-card-text class="py-2 white--text text-center">
+      <v-btn
+        v-for="link in links"
+        :key="link"
+        color="black"
+        text
+        rounded
+        class="my-2"
+      >
+        {{ link }}
+      </v-btn>
+      <v-col
+        class="white py-4 text-center black--text"
+        cols="12"
+      >
         {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
-    </v-card>
+      </v-col>
+    </v-row>
   </v-footer>
 </template>
-
 
 <script>
   export default {
     data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
+      links: [
+        'Home',
+        'About Us',
+        'Team',
+        'Services',
+        'Blog',
+        'Contact Us',
       ],
     }),
   }

@@ -1,7 +1,8 @@
 <template>
   <v-bottom-navigation
+    absolute
     :value="value"
-    color="teal"
+    color="primary"
     grow
   >
     <v-btn>

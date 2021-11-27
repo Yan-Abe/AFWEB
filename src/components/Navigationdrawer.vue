@@ -1,13 +1,13 @@
 <template>
-  <v-card height="200px">
-    <v-navigation-drawer
-      
+  <v-card height="250px">
+    <v-navigation-drawer 
       left
+      color="primary"
     >
       <template v-slot:prepend>
         <v-list-item two-line>
           <v-list-item-avatar>
-            <img src="https://cdn.discordapp.com/attachments/911306299105505342/911363959054036992/156043551_429622051464041_520560452358460621_n.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png">
           </v-list-item-avatar>
 
           <v-list-item-content>
@@ -45,7 +45,8 @@
         items: [
           { title: 'Home', icon: 'mdi-home-city' },
           { title: 'My Account', icon: 'mdi-account' },
-          { title: 'Users', icon: 'mdi-account-group-outline' },
+          { title: 'Contacts', icon: 'mdi-account-group-outline' },
+          { title: 'Inbox', icon: 'mdi-email' },
         ],
       }
     },
