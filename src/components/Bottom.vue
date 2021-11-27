@@ -2,7 +2,7 @@
   <v-bottom-navigation
     absolute
     :value="value"
-    color="primary"
+    dark
     grow
   >
     <v-btn>

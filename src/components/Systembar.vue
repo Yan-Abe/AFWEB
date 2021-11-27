@@ -1,8 +1,9 @@
 <template>
   <div>
     <v-system-bar
+      dark
       absolute
-      color="white"
+      
     >
       
       <v-spacer></v-spacer>

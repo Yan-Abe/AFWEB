@@ -1,11 +1,11 @@
 <template>
-  <v-row justify="start">
+  <v-row justify="center">
     <v-col
       cols="12"
       sm="9"
     >
       <v-card>
-        <v-card-title class="primary">
+        <v-card-title class="black">
           <span class="text-h5 white--text">Facens</span>
 
           <v-spacer></v-spacer>
