@@ -9,8 +9,8 @@
         md="3"
         xs="2"
       >
-      {{data}}
-        <Card :cardid="i"></Card>
+      {{i}}
+        <Card :cardid ="i" :cardInfo="data"></Card>
       </v-col>
     </v-row>
   
@@ -20,9 +20,12 @@
 
 <script>
 import Card from '../components/Card'
-
 export default {
   name: 'Contatos',
+  data(){
+    return{ cardss: this.$store.state.cards
+    }
+  },
   computed:{
     myCards(){
       return this.$store.state.cards

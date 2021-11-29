@@ -81,16 +81,13 @@
 import Footer from './components/Footer';
 import Bottom from './components/Bottom';
 import Systembar from './components/Systembar';
-
 export default {
   name: 'App',
-
   components: {
     Footer,
     Bottom,
     Systembar
   },
-
   data: () => ({
     drawer: null,
     items: [

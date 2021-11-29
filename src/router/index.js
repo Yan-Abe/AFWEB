@@ -21,15 +21,17 @@ const routes = [
     component: () =>  import( '../views/Contatos.vue')
   },
   {
+    path: '/fotos',
+    name: 'Fotos',
+    component: () =>  import( '../views/Fotos.vue')
+    
+  },
+  {
     path: '/:cardId',
     name: 'Card',
     component: Card
   },
-  {
-    path: '/fotos',
-    name: 'Fotos',
-    component: () =>  import( '../views/Fotos.vue')
-  }
+  
 ]
 
 const router = new VueRouter({

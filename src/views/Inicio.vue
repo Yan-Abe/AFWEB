@@ -1,34 +1,6 @@
 <template>
-  <div>
-      <v-row>
-      <v-col
-        v-for="i in myCards"
-        :key="i"
-        cols="16"
-        sm="12"
-        md="3"
-        xs="2"
-      >
-        <Card :cardInfo="data"></Card>
-      </v-col>
-    </v-row>
-  
-
-    </div>
+    <v-img
+  lazy-src="https://media-exp1.licdn.com/dms/image/C4D1BAQGf9-MRf5UTZA/company-background_10000/0/1562091184284?e=2159024400&v=beta&t=kNOZAhx4VQDWw8Z2jMUAew90WMC6Cm46IFK6uUQNZPM"
+  src="https://media-exp1.licdn.com/dms/image/C4D1BAQGf9-MRf5UTZA/company-background_10000/0/1562091184284?e=2159024400&v=beta&t=kNOZAhx4VQDWw8Z2jMUAew90WMC6Cm46IFK6uUQNZPM"
+>   </v-img>
 </template>
-
-<script>
-import Card from '../components/Card'
-
-export default {
-  name: 'Inicio',
-  computed:{
-    myCards(){
-      return this.$store.state.cards
-    }
-  },
-  components: {
-    Card,
-  },
-}
-</script>
