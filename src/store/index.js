@@ -15,6 +15,7 @@ export default new Vuex.Store({
       {Nome:"Guilherme",Celular:"99993-1717",Email:"Guilherme@hotmail.com"},
       {Nome:"Higor",Celular:"99992-1818",Email:"Higor@hotmail.com"}
     ],
+    title:"Hello World"
   },
   mutations: {
   },

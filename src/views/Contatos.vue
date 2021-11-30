@@ -2,15 +2,14 @@
   <div>
       <v-row>
       <v-col
-        v-for="{data,i} in myCards"
+         v-for="(data,i) in myCards"
         :key="i"
-        cols="16"
-        sm="12"
-        md="3"
+        cols="12"
+        sm="6"
+        md="4"
         xs="2"
       >
-      {{i}}
-        <Card :cardid ="i" :cardInfo="data"></Card>
+         <Card :cardid ="i" :cardInfo="data"></Card>
       </v-col>
     </v-row>
   
@@ -20,10 +19,13 @@
 
 <script>
 import Card from '../components/Card'
+
 export default {
   name: 'Contatos',
   data(){
-    return{ cardss: this.$store.state.cards
+    return{ 
+      titleView: this.$store.state.title
+
     }
   },
   computed:{
