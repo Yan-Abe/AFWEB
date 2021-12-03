@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from 'axios'
 
 Vue.use(Vuex)
 
@@ -15,12 +16,27 @@ export default new Vuex.Store({
       {Nome:"YAMAHA NEO CVT 115",Preco:"R$ 6.500",Info:"2007/2008 43.935KM",Foto:"https://www.moto.com.br/img/2007/06/04/img6872-1180954422-v580x435.jpg"},
       {Nome:"TRIUMPH TIGER 800XC",Preco:"R$ 43.488",Info:"2015/2015 43.000KM",Foto:"https://i.pinimg.com/736x/dd/f5/db/ddf5dbf920caf2a96a35d03c93e1326e--mona-grant.jpg"}
     ],
-    title:"Hello World"
+    title:"Eventos",
+    events:[],
   },
   mutations: {
+    SET_EVENTS(state, payload){
+      state.events=payload
+    }
   },
   actions: {
+    fetchEvents({commit}){
+      axios.get('https://agenda-balaguer.herokuapp.com/api/event')
+      .then(res=>{
+        const payload =res.data.values
+        commit('SET_EVENTS',payload)
+      })
+      .catch(err=>{console.log(err)})
+    }
   },
   getters: {
+    bigTitle(state){
+      return state.title.toUpperCase()
+    }
   }
 })

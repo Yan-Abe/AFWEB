@@ -6,21 +6,15 @@
     <v-img
       class="white--text align-end"
       height="300px"
-      v-bind:src="cardInfo.Foto"
+      src="https://www.serro.mg.gov.br/fotos/b4d80b98de6ea9bb73c2ee183bad5ad2.jpg"
     >
     </v-img>
-    <v-card-title>{{cardInfo.Nome}}</v-card-title>
+    <v-card-title>{{cardInfo.title}}</v-card-title>
+    <v-card-subtitle> <div>{{cardInfo.description}}</div></v-card-subtitle>
     <v-card-text class="text--primary">
-      <div>{{cardInfo.Preco}}</div>
 
       <div>{{cardInfo.Info}}</div>
       <v-card-actions>
-      <v-btn
-        color="red"
-        text
-      >
-        Comprar
-      </v-btn>
 
     </v-card-actions>
     </v-card-text>
@@ -38,6 +32,7 @@
     }),
 
     methods: {
+      
       reserve () {
         this.loading = true
 

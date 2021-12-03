@@ -1,8 +1,9 @@
 <template>
   <div>
+    <h1> {{title}} </h1>
       <v-row>
       <v-col
-         v-for="(data,i) in myCards"
+         v-for="(data,i) in events"
         :key="i"
         cols="12"
         sm="8"
@@ -24,17 +25,25 @@ export default {
   name: 'Inicio',
   data(){
     return{ 
-      titleView: this.$store.state.title
-
+      titleView: this.$store.state.title,
     }
   },
   computed:{
     myCards(){
       return this.$store.state.cards
+    },
+    title(){
+      return this.$store.getters.bigTitle
+    },
+    events(){
+      return this.$store.state.events
     }
   },
   components: {
     Card,
-  },
+  }, 
+  async created(){
+    this.$store.dispatch("fetchEvents")
+   }
 }
 </script>

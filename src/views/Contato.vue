@@ -6,7 +6,7 @@
     >
       <v-card>
         <v-card-title class="black">
-          <span class="text-h5 white--text">WEBMOTOS</span>
+          <span class="text-h5 white--text">Equipe MyEvents</span>
 
           <v-spacer></v-spacer>
 
@@ -70,7 +70,7 @@
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title>webmotos@facens.br</v-list-item-title>
+              <v-list-item-title>myevent@facens.br</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -88,8 +88,8 @@
         </v-list>
 
         <v-img
-          src="https://www.webmotors.com.br/vender/img/home/img/hero-2.jpg"
-          height="800px"
+          src="https://www.serro.mg.gov.br/fotos/b4d80b98de6ea9bb73c2ee183bad5ad2.jpg"
+          height="500px"
         ></v-img>
       </v-card>
     </v-col>

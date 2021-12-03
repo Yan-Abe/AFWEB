@@ -42,7 +42,7 @@
   <v-app-bar app
     dark>
     <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-    <v-toolbar-title>WEBMOTOS</v-toolbar-title>
+    <v-toolbar-title>MyEvents</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-btn icon>
         <v-icon>mdi-home-city</v-icon>
@@ -54,7 +54,7 @@
         <v-icon>mdi-account-group-outline</v-icon>
       </v-btn>
       <v-btn icon>
-        <v-icon>mdi-email</v-icon>
+        <v-icon>mdi-image</v-icon>
       </v-btn>
     
   </v-app-bar>
@@ -91,7 +91,7 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-          { title: 'Início', icon: 'mdi-home-city', to: '/'},
+          { title: 'Eventos', icon: 'mdi-home-city', to: '/'},
           { title: 'Perfil', icon: 'mdi-account', to: '/perfil'},
           { title: 'Contato', icon: 'mdi-account-group-outline', to: '/contato'},
           { title: 'Foto', icon: 'mdi-image', to: '/foto'},

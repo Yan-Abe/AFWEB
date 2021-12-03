@@ -5,6 +5,6 @@
   min-width="1944"
   max-height="1081"
   max-width="1944"
-  src="https://conteudo.imguol.com.br/blogs/36/files/2016/08/1077_456AOGUIDAO_COMPRAR_MOTO_USADA_10.jpg"
+  src="https://media.starlightcms.io/workspaces/pague-menos/portal-sempre-bem/optimized/istock-1227545308-ya8rnoqcq7.jpeg"
 ></v-img>
 </template>
