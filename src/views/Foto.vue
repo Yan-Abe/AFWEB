@@ -1,0 +1,10 @@
+<template>
+  <v-img
+  lazy-src="https://picsum.photos/id/11/10/6"
+  min-height="1081"
+  min-width="1944"
+  max-height="1081"
+  max-width="1944"
+  src="https://conteudo.imguol.com.br/blogs/36/files/2016/08/1077_456AOGUIDAO_COMPRAR_MOTO_USADA_10.jpg"
+></v-img>
+</template>

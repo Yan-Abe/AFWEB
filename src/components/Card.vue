@@ -1,34 +1,30 @@
 <template>
   <v-card
     class="mx-auto"
-    max-width="400"
+    max-width="500"
   >
-    
-      <v-card-title>{{cardInfo.Nome}}</v-card-title>
-    
-
-
+    <v-img
+      class="white--text align-end"
+      height="300px"
+      v-bind:src="cardInfo.Foto"
+    >
+    </v-img>
+    <v-card-title>{{cardInfo.Nome}}</v-card-title>
     <v-card-text class="text--primary">
-      <div>{{cardInfo.Celular}}</div>
+      <div>{{cardInfo.Preco}}</div>
 
-      <div>{{cardInfo.Email}}</div>
+      <div>{{cardInfo.Info}}</div>
+      <v-card-actions>
+      <v-btn
+        color="red"
+        text
+      >
+        Comprar
+      </v-btn>
+
+    </v-card-actions>
     </v-card-text>
 
-    <v-card-actions>
-      <v-btn
-        color="orange"
-        text
-      >
-        Ligar
-      </v-btn>
-
-      <v-btn
-        color="orange"
-        text
-      >
-        Enviar Mensagem
-      </v-btn>
-    </v-card-actions>
   </v-card>
 </template>
 

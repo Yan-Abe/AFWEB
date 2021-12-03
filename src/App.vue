@@ -42,7 +42,7 @@
   <v-app-bar app
     dark>
     <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-    <v-toolbar-title>Menu</v-toolbar-title>
+    <v-toolbar-title>WEBMOTOS</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-btn icon>
         <v-icon>mdi-home-city</v-icon>
@@ -93,8 +93,8 @@ export default {
     items: [
           { title: 'Início', icon: 'mdi-home-city', to: '/'},
           { title: 'Perfil', icon: 'mdi-account', to: '/perfil'},
-          { title: 'Contatos', icon: 'mdi-account-group-outline', to: '/contatos'},
-          { title: 'Fotos', icon: 'mdi-image', to: '/fotos'},
+          { title: 'Contato', icon: 'mdi-account-group-outline', to: '/contato'},
+          { title: 'Foto', icon: 'mdi-image', to: '/foto'},
         ],
   }),
 };

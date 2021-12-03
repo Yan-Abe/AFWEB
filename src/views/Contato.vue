@@ -6,7 +6,7 @@
     >
       <v-card>
         <v-card-title class="black">
-          <span class="text-h5 white--text">Yan Abe</span>
+          <span class="text-h5 white--text">WEBMOTOS</span>
 
           <v-spacer></v-spacer>
 
@@ -39,7 +39,7 @@
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title>+55 15 3332 1111</v-list-item-title>
+              <v-list-item-title>+55 15 3238 1188</v-list-item-title>
             </v-list-item-content>
             <v-list-item-action>
               <v-icon>mdi-message-text</v-icon>
@@ -54,7 +54,7 @@
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title>15 99998.7777</v-list-item-title>
+              <v-list-item-title>15 98154.7777</v-list-item-title>
             </v-list-item-content>
 
             <v-list-item-action>
@@ -70,7 +70,7 @@
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title>yan@facens.br</v-list-item-title>
+              <v-list-item-title>webmotos@facens.br</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -87,7 +87,10 @@
           </v-list-item>
         </v-list>
 
-        
+        <v-img
+          src="https://www.webmotors.com.br/vender/img/home/img/hero-2.jpg"
+          height="800px"
+        ></v-img>
       </v-card>
     </v-col>
   </v-row>
